@@ -138,7 +138,7 @@ with col1:
         ["26A", "26B", "25A", "25B", "24B", "その他"],
         index=0
     )
-    student_id = st.text_input("学籍番号（がくせきばんごう）", placeholder="例: 26001")
+    student_id = st.text_input("学籍番号（がくせきばんごう）", placeholder="例: 926001")
 with col2:
     group_name = st.text_input("班名（はんめい・ワークシート用）", placeholder="例: 1班")
     student_name = st.text_input("氏名（しめい）", placeholder="例: 青山 太郎")
