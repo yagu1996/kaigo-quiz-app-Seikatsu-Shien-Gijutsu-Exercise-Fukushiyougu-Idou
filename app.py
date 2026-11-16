@@ -141,7 +141,7 @@ with col1:
     student_id = st.text_input("学籍番号（がくせきばんごう）", placeholder="例: 926001")
 with col2:
     group_name = st.text_input("班名（はんめい・ワークシート用）", placeholder="例: 1班")
-    student_name = st.text_input("氏名（しめい）", placeholder="例: 青山 太郎")
+    student_name = st.text_input("氏名（ニックネーム）", placeholder="例: Your nickname")
 
 st.divider()
 
